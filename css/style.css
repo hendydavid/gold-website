@@ -523,10 +523,11 @@ h2 {
     margin-bottom: 10px;
 }
 
+
 .call-banner {
     text-align: center;
-    height: 250px;
-    background-color: #00c42a;
+    height:100%;
+    background-color: rgb(17, 108, 183);
     color: #fff;
     padding: 0px 50px;
     padding-top: 40px;
