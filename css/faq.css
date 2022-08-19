@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+.container-acc {
+    font-family: 'Baloo 2', cursive;
+    width: 60%;
+    margin: auto 0;
+    margin-top: 100px;
+}
+
+.container-acc h2 {
+
+    position: relative;
+    color: rgb(150, 55, 179);
+    width: 23rem;
+
+}
+
+.container-acc h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 26px;
+    width: 67px;
+    height: 2px;
+    background-color: rgb(19, 149, 175);
+
+}
+
+.accordion {
+    width: 100%;
+    padding: 0px 10px;
+    border: 2px solid #6db5ff;
+    cursor: pointer;
+    border-radius: 50px;
+    display: flex;
+    /* text-align: center; */
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.accordion .icon {
+    margin: 0 10px 0 0;
+    width: 30px;
+    height: 30px;
+    /* background: url(../image/Picture2.png.jpg) no-repeat center center/cover ; */
+    border-radius: 50%;
+    background-color: #6db5ff;
+    transition: all .5s ease-in;
+    float: left;
+    color: #f0f0f0;
+    padding: 3px;
+}
+
+.accordion h5 {
+    font-size: 22px;
+    margin: 0;
+    padding: 3px 0px 0px 0px;
+    font-weight: normal;
+    color: #3082df;
+    text-transform: capitalize;
+
+}
+
+.panel {
+    padding: 0 15px;
+    border-left: 1px solid #6db5ff;
+    margin-left: 25px;
+    font-size: 16px;
+    text-align: justify;
+    overflow: hidden;
+    height: 0px;
+    color: #4cc410;
+}
+
+.active {
+    height: 100%;
+}
+
+.active-acc {
+    background: #49d5f1;
+
+
+}
+
+.active-acc i {
+    display: none;
+}
+
+.active-acc h5 {
+    color: #ffffff;
+}
+
+
+@media(max-width:760px) {
+
+    .accordion h5 {
+        font-size: 1rem;
+    }
+
+    .container-acc {
+        width: 90%;
+    }
+
+
+
+}
