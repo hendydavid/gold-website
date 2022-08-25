@@ -695,6 +695,7 @@ z-index: 3;
     #showcase {
         height: 100%;
         padding: 30px 0px 0px 0px;
+       padding-bottom: 10px;
     }
 
     #showcase h1 {
